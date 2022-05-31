@@ -1,0 +1,2 @@
+# parcialNuevasTec
+# parcialNuevasTaec
