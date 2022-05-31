@@ -1,0 +1,19 @@
+{
+  "name": "MicroSerGCP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "image:build": "gcloud builds submit --tag gcr.io/gcp-microservicio-parcial/orders",
+    "image:deploy": "gcloud run deploy --img gcr.io/gcp-microservicio-parcial/orders "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^3.0.1",
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "delivery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gcloud functions deploy secheduleDelivery --trigger-topic orders --runtime nodejs14 "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
